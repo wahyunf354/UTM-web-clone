@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perpustakaan UTM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+
+
+</head>
+
+<body>
+    <div class="header">
+        <img src="./img/logo-utm.png" alt="">
+        <h1>Perpustakaan UTM</h1>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#about">About Us</a></li>
+        </ul>
+    </div>
+
+    <div class="hero">
+        <div class="container">
+            <h1>Website Perpustakaan UTM</h1>
+            <p>Pinjam dan baca buku perpustakaan UTM kapan dan dimana saja dengan website ini secara online.</p>
+            <a href="#register">Daftar Sekarang</a>
+        </div>
+        <img src="./img/undraw_book_lover_mkck.png" alt="">
+
+    </div>
+    <div class="clear"></div>
+    <div id="register">
+        <img src="./img/undraw_reading_list_4boi.png" alt="">
+        <h2>Daftar Sekarang!</h2>
+        <fieldset>
+            <form action="" action="get
+            ">
+                <table>
+                    <tr>
+                        <td><label for="nama">Nama</label></td>
+                        <td><input id="nama" type="text" name="nama"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <!-- keterangan untuk user ketika validasi -->
+                        <td id="validate-nama">
+                            <p class="error"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="nim">NIM</label></td>
+                        <td><input id="nim" type="text" name="nim"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <!-- keterangan untuk user ketika validasi -->
+                        <td id="validate-nim">
+                            <p class="error"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>
+                            <input id="laki" name="gender" type="radio" value="laki-laki">
+                            <label for="laki">Laki-laki</label>
+                            <input id="perempuan" name="gender" type="radio" value="perempuan">
+                            <label for="perempuan">Perempuan</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <!-- keterangan untuk user ketika validasi -->
+                        <td id="validate-gender">
+                            <p class="error"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="prodi">Prodi</label></td>
+                        <td>
+                            <select name="prodi" id="prodi">
+                                <option value="">--Pilih prodi--</option>
+                                <option value="1">Teknik Industri</option>
+                                <option value="2">Teknik Mesin</option>
+                                <option value="3">Teknik Industri</option>
+                                <option value="4">Teknik Mekatronika</option>
+                                <option value="5">Teknik Elektro</option>
+                                <option value="6">Sistem Informasi</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <!-- keterangan untuk user ketika validasi -->
+                        <td id="validate-prodi">
+                            <p class="error"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="password">Password</label></td>
+                        <td><input type="password" name="password" id="password"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <!-- keterangan untuk user ketika validasi -->
+                        <td id="validate-password">
+                            <p class="error"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="konfirmasiPassword">Konfirmasi password</label></td>
+                        <td><input type="password" name="konfirmasiPassword" id="konfirmasiPassword"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <!-- keterangan untuk user ketika validasi -->
+                        <td id="validate-conf-password">
+                            <p class="error"></p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button class="btn" type="button">Registrasi</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </fieldset>
+    </div>
+    <div id="about">
+        <h2>About Us</h2>
+        <table>
+            <tr>
+                <td>Mata Kuliah</td>
+                <td>:</td>
+                <td>Dasar Pemrograman Web</td>
+            </tr>
+            <tr>
+                <td>Kelas</td>
+                <td>:</td>
+                <td>2D</td>
+            </tr>
+            <tr>
+                <td>Kelompok</td>
+                <td>:</td>
+                <td>DPW2D_KEL5</td>
+            </tr>
+        </table>
+        <div class="anggota">
+            <div class="nama">
+                <h4>Egi Putra Ragil</h4>
+                <h4>(190411100137)</h4>
+                <span>validasi javascript</span>
+            </div>
+            <div class="nama">
+                <h4>Dwi Sulistini Hasien</h4>
+                <h4>(190411100026)</h4>
+                <span>HTML & CSS</span>
+            </div>
+            <div class="nama">
+                <h4>Alvi Maulana</h4>
+                <h4>(190411100099)</h4>
+                <span>HTML & CSS</span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h4>@2020 Created By DPW2D_KEL5</h4>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
