@@ -83,6 +83,12 @@ body {
   margin-top: 30px;
   display: inline-block;
   border-radius: 5px;
+  transition: all 300ms;
+}
+
+.container a:hover {
+  background-color: rgba(#eff926, 0.5);
+  transform: scale(1.1);
 }
 
 .hero img {
@@ -148,6 +154,12 @@ input[type="submit"] {
   cursor: pointer;
   border: none;
   background-color: white;
+  transition: all 300ms;
+}
+
+.btn:hover {
+  /* background-color: #eee; */
+  transform: scale(1.1);
 }
 
 .error {
